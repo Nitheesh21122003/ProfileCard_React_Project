@@ -1,0 +1,63 @@
+.profile-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  max-width: 90%; /* adjusts on smaller screens */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 15px auto;
+  display: block; 
+}
+
+h2 {
+  margin: 10px 0 5px;
+}
+
+h4 {
+  margin: 0 0 15px;
+  color: gray;
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.download-btn:hover {
+  background: #218838;
+}
+
+.social-icons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 1.5rem;
+}
+
+.social-icons a {
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #2193b0;
+}
